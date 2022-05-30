@@ -6,8 +6,8 @@ import pandas as pd
 import csv
 
 #Change the School data here
-df = pd.read_csv("medium_data.csv")
-data = df["reading_time"].tolist()
+#read the data
+#convert the "reading_time" column tolist
 
 
 ##  code to find the mean of 100 data points 1000 times 
@@ -93,5 +93,5 @@ fig.show()
 
 
 #finding the z score using the formula
-z_score = (mean - mean_of_sample2)/std_deviation
-print("The z score is = ",z_score)
+
+# print z_score
